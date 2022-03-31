@@ -4,68 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CyAaron Tai Nava || Home</title>
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="icon" href="resources/favicon.ico">
+  <title>CAT6</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Pacifico&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <div class="top">
-    <div class="greeting">
-      <h1>I am Tai.</h1>
-      <h2 class="greeting">Smart Contract Developer & Technical Writer</h2>
-    </div>
-    <img class="the-cat" src="resources/cat.gif" alt="cat-img">
-    <a href="#mid"><img class="arrow" src="resources/arrow.gif" alt="arrow-img"></a>
-  </div>
 
-  <div class="middle" id="mid">
-    <div class="profile">
-      <img id="pfp" src="resources/portrait.png" alt="portrait-img">
-      <h2>Hello.</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-    </div>
+<body class="bg-light-blue m0">
+  <!-- Navbar -->
+   <nav class="navbar navbar-expand fixed-top navbar-dark bg-blue"> <!--  -->
+     <div class="container-fluid">
+       <a class="navbar-brand" href="">CAT6</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#landing">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Products</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Services</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+         </ul>
+       </div>
+     </div>
+   </nav>
 
-    <hr>
-
-    <div class="skills">
-      <h2 class="skills-desc">Services.</h2>
-
-      <div class="skill-row">
-        <img class="skill-image-left" src="resources/money-bag.gif" alt="money-img">
-        <div class="skill-description-left">
-          <h3>Smart Contracts</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus,
-            erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        </div>
+  <!-- Landing -->
+  <section id="landing">
+    <div class="landing" style="background-image: url('resources/chart.png');">
+      <div class="landing-text c-orange">
+        <h1>I am Tai.</h1>
+        <h2>Smart Contract Developer<br>& Technical Writer</h2>
       </div>
-
-      <div class="skill-row">
-        <div class="skill-description-right">
-          <h3>Technical Writing</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus,
-            erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        </div>
-        <img class="skill-image-right" src="resources/book.gif" alt="book-img">
+      <div class="landing-anim">
+        <img class="landing-bars" src="resources/bars.png" alt="bars-img">
+        <img class="landing-cat" src="resources/cat.gif" alt="cat-gif">
       </div>
     </div>
 
     <hr>
+  </section>
 
-    <div class="profile">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <br>
-      <a class="btn" style="color: #ffffff;" href="mailto:cyaaron.tai.nava@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
 
-  <div class="bottom">
-    <a class="footer-link" href="https://linktr.ee/cyaaron.tai.nava">Linktree</a>
-    <p class="copyright">© CyAaron Tai Nava.</p>
-  </div>
+  <!-- Products -->
+  <section id="products">
+    products
+    <hr>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    services
+    <hr>
+  </section>
+
+  <!-- Contact Me -->
+  <section id="contact">
+    contact
+    <hr>
+  </section>
+
+  <!-- Footer -->
+ <footer class="bg-blue navbar-dark b0" id="footer">
+   <p class="copyright">© Copyright CyAaron Tai Nava</p>
+ </footer>
+
+
 </body>
 </html>
