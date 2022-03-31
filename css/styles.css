@@ -11,18 +11,18 @@ body {
   color: #082032;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Kaisei Decol', serif;
 }
 
 h1 {
   font-size: 5.625rem;
   margin: 0 auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Pacifico', cursive;
   padding-top: 1rem;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Zen Kurenaido', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Zen Kurenaido', sans-serif;
   margin: 0;
 }
 
