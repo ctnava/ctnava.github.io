@@ -183,6 +183,10 @@ footer {
   color: #334756;
   font-size: 1rem;
 }
-footer:hover {
-  color: #FF4C29;
+.footer-link {
+   color: #334756;
+   text-decoration: none;
+}
+.footer-link:hover {
+   color: #FF4C29;
 }
