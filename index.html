@@ -1,82 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
   <title>CAT6</title>
-  <link rel="icon" href="resources/favicon.ico">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Pacifico&family=Zen+Kurenaido&display=swap" rel="stylesheet">
-
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/a8368a640a.js" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-light-blue m0">
-  <!-- Navbar -->
-   <nav class="navbar navbar-expand fixed-top navbar-dark bg-blue"> <!--  -->
-     <div class="container-fluid">
-       <a class="navbar-brand" href="">CAT6</a>
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#landing">Home</a></li>
-           <li class="nav-item"><a class="nav-link" href="">Products</a></li>
-           <li class="nav-item"><a class="nav-link" href="">Services</a></li>
-           <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-         </ul>
-       </div>
-     </div>
-   </nav>
-
-  <!-- Landing -->
-  <section id="landing">
-    <div class="landing" style="background-image: url('resources/chart.png');">
-      <div class="landing-text c-orange">
-        <h1>I am Tai.</h1>
-        <h2>Smart Contract Developer<br>& Technical Writer</h2>
-      </div>
-      <div class="landing-anim">
-        <img class="landing-bars" src="resources/bars.png" alt="bars-img">
-        <img class="landing-cat" src="resources/cat.gif" alt="cat-gif">
+<body id="top" class="bg-dark-blue">
+  <!-- Nav Group -->
+  <div class="nav-group">
+    <!-- Navbar -->
+    <div class="container">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-image: url('images/chart.png');">
+          <a class="navbar-brand" href="#landing">CAT6@Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#top">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
+  </div>
 
-    <hr>
+  <!-- Landing -->
+  <section id="landing" class="landing bg-blue">
+    <div class="container landing-container-main">
+      <div class="container landing-container primary-landing">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 c-orange">
+            <h1>Smart Contract Developer</h1>
+          </div>
+          <div class="col-lg-2 col-md-12 c-orange">
+            <h1>&</h1>
+          </div>
+          <div class="col-lg-5 col-md-12 c-orange">
+            <h1>Technical Writer</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container landing-container secondary-landing">
+        <div class="row mobile-secondary">
+          <div class="col-md-12 c-orange">
+            <h2>I engineer ecosystems,</h2>
+          </div>
+          <div class="col-md-12 c-orange">
+            <h2>
+              not just software.
+            </h2>
+          </div>
+        </div>
+        <div class="row desktop-secondary">
+          <div class="col-lg-12 c-orange">
+            <h2>I engineer ecosystems, not just software.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="cat-gif" src="images/cat.gif" alt="cat-gif">
   </section>
 
-
   <!-- Products -->
-  <section id="products">
-    products
-    <hr>
+  <section id="products" class="products bg-light-blue c-dark-blue">
+    <div class="container">
+      <h2>Products</h2>
+      <hr>
+      <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." style="background-color: red;">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." style="background-color: green;">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." style="background-color: blue;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
   </section>
 
   <!-- Services -->
-  <section id="services">
-    services
-    <hr>
+  <section id="services" class="services bg-light-blue c-dark-blue">
+    <div class="container">
+      <h2>Services</h2>
+      <hr>
+      <div id="services-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." style="background-color: green;">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." style="background-color: blue;">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." style="background-color: red;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#services-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#services-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
   </section>
 
-  <!-- Contact Me -->
-  <section id="contact">
-    contact
+  <!-- Contact -->
+  <section id="contact" class="contact bg-light-blue c-dark-blue">
+    <h2>Contact</h2>
     <hr>
   </section>
 
   <!-- Footer -->
- <footer class="bg-blue navbar-dark b0" id="footer">
-   <p class="copyright">© Copyright CyAaron Tai Nava</p>
- </footer>
-
-
+  <footer class="footer bg-blue navbar-dark b0" id="footer">
+    <p>© Copyright CyAaron Tai Nava</p>
+  </footer>
 </body>
+
 </html>
